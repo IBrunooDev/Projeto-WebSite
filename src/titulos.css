@@ -1,0 +1,134 @@
+h1 {
+    font-size: 35px;
+}
+
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo-1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.titulo-2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+span {
+    color: #6c63ff;
+}
+
+.sobre-1 {
+    border: 2px solid #6b63ff2f;
+    border-radius: 10px;
+    background-color: #6b63ff44;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.sobre-1:hover {
+    transform: scale(1.1);
+    background-color: #00000044;
+}
+
+.nome-1 {
+    font-size: 30px;
+}
+
+.valor-1 {
+    font-size: 25px;
+}
+
+.paragrafo {
+    margin: 15px;
+}
+
+
+.card-1 {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 10px;
+
+}
+
+.card-principal{
+    border-color: #6c63ff;
+}
+
+#sobre {
+    cursor: pointer;
+    background-color: #6b63ff44;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+#sobre h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sobre-empresa {
+    border-radius: 30px;
+    margin: 60px;
+}
+
+.termos {
+    margin-top: 20px;
+
+}
+
+.termos p{
+    margin-top: 10px;
+}
+
+.qualidade{
+    margin-top: 10px;
+}
+
+.qualidade p{
+    margin-top: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

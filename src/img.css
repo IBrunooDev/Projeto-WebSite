@@ -1,0 +1,20 @@
+.image {
+    width: 350px;
+    height: 300px;
+}
+
+.img-2 {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-3{
+    width: 50%;
+}
+
+#icon {
+    width: 20px;
+    cursor: pointer;
+}

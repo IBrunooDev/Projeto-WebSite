@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navegação */
+header {
+    background-color: #6c63ff;
+    color: #fff;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 10px;
+
+
+    font-family: "Oswald", sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-self: row;
+    gap: 40px;
+    padding: 14px;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+    font-family: "Oswald", sans-serif;
+}
+
+.seila {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
